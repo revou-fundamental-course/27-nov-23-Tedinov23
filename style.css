@@ -1,0 +1,82 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.col-sm-6 {
+    width: 60%;
+    float: none;
+    margin: auto;
+}
+
+.panel {
+    margin: 20px;
+    border: 1px solid rgba(39, 128, 184, 1);
+    border-radius: 4px;
+    overflow: hidden; 
+}
+.text-left {
+    text-align: left;
+}
+.panel-heading {
+    background-color: rgba(39, 128, 184, 1);
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.panel-body {
+    text-align: center;
+    padding: 20px;
+}
+.form-control {
+    width: 95%;
+    margin: 10px auto;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.panel-footer {
+    text-align: center;
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+.button-container button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#sisi1, #sisi2, #sisi3 {
+    width: 95%;
+    margin: 10px auto;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 10px;
+}
+#hitung-button {
+    background-color: rgba(39, 128, 184, 1);
+    margin: auto;
+}
+
+#reset-button {
+    background-color: rgba(239, 173, 77, 1);
+    margin-left: 80%;
+}
+
+#calculation-steps {
+    text-align: left;
+    margin: 20px;
+}
+
+#hasil-keliling {
+    text-align: left; 
+}

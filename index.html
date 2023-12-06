@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keliling Segitiga Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <div class="col-sm-6">
+        <div class="panel panel-default text-center">
+            <div class="panel-heading">
+                <h2>Keliling Segitiga</h2>
+            </div>
+            <div class="panel-body">
+                <p><img src="img/segitiga.jpg" class="gambar" alt="Keliling Segitiga"></p>
+                <p class="text-left">Rumus Keliling Segitiga yaitu :</p>
+                <p><strong>K = S1 + S2 + S3</strong></p>
+                <p class="text-left">Di mana :<br/>K = Keliling<br />S1 = Sisi A<br />S2 = Sisi B<br />S3 = Sisi C</p>
+            </div>
+            <hr>
+            <div class="panel-footer">
+                <h2>Hitung Keliling Segitiga</h2>
+                <form id="keliling-segitiga" method="post" action="#">
+                    <input class="form-control" id="sisi1" name="sisi1" placeholder="Nilai Sisi A" type="text" required /><br />
+                    <input class="form-control" id="sisi2" name="sisi2" placeholder="Nilai Sisi B" type="text" required /><br />
+                    <input class="form-control" id="sisi3" name="sisi3" placeholder="Nilai Sisi C" type="text" required />
+                    </p>
+                </form>
+                <div class="button-container">
+                    <div id="calculation-steps" class="calculation"></div>
+                    <div id="hasil-keliling" class="result"></div>
+                    <button id="hitung-button" onclick="hitungKeliling()">Hitung</button>
+                    <button id="reset-button" onclick="resetForm()">Reset</button>
+                </div>          
+<script src="main.js"></script>
+</body>
+</html>
